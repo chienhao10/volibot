@@ -115,6 +115,12 @@ namespace LoLLauncher
         [LocaleValue("en_US")]
         [UseGarenaValue(false)]
         LAS
+        
+        [ServerValue("prod.jp.lol.riotgames.com")]
+        [LoginQueueValue("https://lq.jp.lol.riotgames.com/")]
+        [LocaleValue("en_US")]
+        [UseGarenaValue(false)]
+        JP
     }
 
     public static class RegionInfo
