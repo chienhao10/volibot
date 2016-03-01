@@ -126,6 +126,9 @@ namespace RitoBot
                 case "LAN":
                     connection.Connect(username, password, Region.LAN, Program.cversion);
                     break;
+                case "JP":
+                    connection.Connect(username, password, Region.LAN, Program.cversion);
+                    break;
             }
         }
 
